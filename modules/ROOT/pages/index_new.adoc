@@ -1,0 +1,82 @@
+= Information Security Management System
+Straumann Group
+
+This space is used as a working area for the overall Straumann Group security and compliance team, to track progress of various projects as well as manage and maintain our Information Security Management System.
+
+== Governance and Risk Management
+
+* link:Executive SteerCo[]
+* link:Executive Reporting[]
+* link:Finance Management & Budgets[]
+* link:Legal & Regulatory[]
+* link:Information Security Management (ISM)[]
+* Group Compliance Profiling
+* link:Risk Management Framework & Risk Register[]
+* link:Policies, Standards, Procedures, Guidelines[]
+* link:Compliance Program[]
+* link:Scope[]
+
+== Roles & Responsibilities
+
+* Architecture
+* link:CIRT[] / PSIRT(?)
+* link:Cyber Governance, Risk & Compliance[]
+* link:Cyber Defense (SecOps)[]
+* link:Team Operations[]
+* Catalogue of Services (?)
+
+== Compliance Program
+
+== Architecture Specification
+
+* link:Cloud Services[]
+* link:Endpoint Security[]
+* link:Information Systems[]
+* link:Mobile & BYOD[]
+* Network
+* link:Products[]
+
+== Technical Security Specifications
+
+* link:Authentication & Authorisation[]
+* link:Data Security[]
+* link:Log & Monitoring[]
+* link:Network Security[]
+* link:Systems Security[]
+
+== Security Operations
+
+* link:Asset Management & Classification[]
+* link:Identity & Access Management[]
+* link:Perimeter[]
+* link:Remote Access[]
+* link:Third Party[]
+* link:Training & Awareness[]
+* link:Visibility & Reporting[]
+* link:Vulnerability Management[]
+* link:Regulatory[]
+
+== Security Domains
+
+* link:Introduction[]
+* link:Business Domain[]
+* link:People Domain[]
+* Process
+* Technology
+* Services
+
+== Incident Management
+
+* link:Incident Response, Investigation & Digital Forensics[]
+* link:Security Incident and Response (SIRT)[]
+* link:InfoSec Audit & Review[]
+* link:Maintain[]
+* Security Orchestration, Automation and Response (SOAR)
+
+== Recently Updated
+
+. link:Cloud and supplier assessments[] - contributed by Maurizio Cencigh, ~1 hour ago
+. link:BCM - SNOW module[] - contributed by Maurizio Cencigh, yesterday at 1:10 PM
+. link:Golden cybersecurity rules[] - contributed by Andre Van Schalkwyk, Jul 28, 2025
+. link:Third party process[] - contributed by Maurizio Cencigh, Jul 23, 2025
+. link:Technical Security Specifications[] - contributed by Andre Van Schalkwyk, Jul 23, 2025
