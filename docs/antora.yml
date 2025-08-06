@@ -1,0 +1,5 @@
+name: docs
+title: Documentation
+version: master
+nav:
+- modules/ROOT/nav.adoc
