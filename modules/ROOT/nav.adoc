@@ -6,3 +6,4 @@
 ** xref:api/endpoints.adoc[Endpoints]
 ** xref:api/authentication.adoc[Authentication]
 * xref:troubleshooting.adoc[Troubleshooting]
+* xref:index_new.adoc[ISMS]
