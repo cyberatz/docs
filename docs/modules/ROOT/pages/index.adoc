@@ -1,0 +1,63 @@
+= Welcome to Our Documentation
+:description: Comprehensive documentation for our project
+:keywords: documentation, guide, reference
+
+[.lead]
+This documentation provides comprehensive information about our project, including installation, configuration, and usage guidelines.
+
+== Getting Started
+
+To get started with our project, follow these simple steps:
+
+[.procedure]
+. Clone the repository
++
+[source,bash]
+----
+git clone https://github.com/your-org/your-repo.git
+----
+
+. Install dependencies
++
+[source,bash]
+----
+npm install
+----
+
+. Start the development server
++
+[source,bash]
+----
+npm run dev
+----
+
+== Features
+
+Our project includes the following features:
+
+[cols="1,2,1"]
+|===
+|Feature |Description |Status
+
+|Documentation
+|Comprehensive AsciiDoc documentation
+|✅ Complete
+
+|CI/CD
+|Automated builds with GitHub Actions
+|✅ Complete
+
+|Deployment
+|Auto-deploy to GitHub Pages
+|✅ Complete
+|===
+
+== Next Steps
+
+After completing the initial setup, you can:
+
+* Explore the xref:configuration.adoc[Configuration] options
+* Review the xref:api/endpoints.adoc[API documentation]
+* Check out our xref:troubleshooting.adoc[troubleshooting guide]
+
+TIP: For the best experience, we recommend reading through the entire documentation before starting development.
