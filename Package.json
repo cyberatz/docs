@@ -1,0 +1,14 @@
+{
+  "name": "antora-docs",
+  "version": "1.0.0",
+  "description": "Documentation site built with Antora",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "preview": "antora --fetch antora-playbook.yml && npx http-server build/site -p 8080"
+  },
+  "devDependencies": {
+    "@antora/cli": "^3.1.0",
+    "@antora/site-generator": "^3.1.0",
+    "http-server": "^14.1.0"
+  }
+}
