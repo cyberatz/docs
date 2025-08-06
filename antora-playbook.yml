@@ -20,6 +20,10 @@ ui:
     contents: |
       static_files:
       - .nojekyll
+      - css/custom.css
+
+      styles:
+      - css/custom.css
 
 asciidoc:
   attributes:
