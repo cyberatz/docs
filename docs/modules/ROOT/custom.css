@@ -1,0 +1,113 @@
+/* Straumann-inspired custom CSS for Antora UI */
+:root {
+  --color-primary: #2dd4bf;
+  --color-primary-dark: #0d9488;
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-background: #ffffff;
+  --color-background-light: #f9fafb;
+  --color-border: #e5e7eb;
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
+
+/* Header styling */
+.navbar {
+  background: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: var(--color-primary-dark);
+}
+
+/* Navigation */
+.nav-menu {
+  background: var(--color-background-light);
+  border-right: 1px solid var(--color-border);
+}
+
+.nav-item-toggle {
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease;
+}
+
+.nav-item-toggle:hover {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* Content area */
+.doc {
+  font-family: var(--font-family-primary);
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.doc h1, .doc h2, .doc h3, .doc h4, .doc h5, .doc h6 {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.doc h1 {
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 0.5rem;
+}
+
+/* Code blocks */
+.doc .listingblock {
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-card);
+}
+
+.doc .listingblock .content {
+  background: #1f2937;
+  border-radius: var(--border-radius);
+}
+
+/* Admonitions */
+.doc .admonitionblock {
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-card);
+  border-left: 4px solid var(--color-primary);
+}
+
+.doc .admonitionblock.tip {
+  border-left-color: var(--color-primary);
+  background: rgba(45, 212, 191, 0.05);
+}
+
+/* Tables */
+.doc table {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.doc table th {
+  background: var(--color-primary);
+  color: white;
+  font-weight: 600;
+}
+
+/* Buttons and links */
+.doc a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.doc a:hover {
+  border-bottom-color: var(--color-primary);
+}
+
+/* Footer */
+.footer {
+  background: var(--color-background-light);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-light);
+}
