@@ -1,4 +1,7 @@
 = Information Security Management System
+
+TIP: test test test
+
 Straumann Group
 
 This space is used as a working area for the overall Straumann Group security and compliance team, to track progress of various projects as well as manage and maintain our Information Security Management System.
