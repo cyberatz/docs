@@ -28,6 +28,9 @@ jobs:
     - name: Generate Antora Site
       run: antora --fetch antora-playbook.yml
 
+    - name: Ensure docs directory exists
+      run: mkdir -p docs
+
     - name: Generate Build Info
       run: |
         echo ":build-commit: $(git rev-parse --short HEAD)" > docs/build-info.adoc
