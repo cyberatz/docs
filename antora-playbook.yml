@@ -14,17 +14,16 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files:
-  - path: ./supplemental-ui
-  - path: .nojekyll
-  - path: css/custom.css
-  - path: ui.yml
-    contents: |
-      static_files:
-      - .nojekyll
-      - css/custom.css
-
-      styles:
-      - css/custom.css
+    - path: supplemental-ui/partials/footer-content.hbs
+    - path: .nojekyll
+    - path: css/custom.css
+    - path: ui.yml
+      contents: |
+        static_files:
+        - .nojekyll
+        - css/custom.css
+        styles:
+        - css/custom.css
 
 asciidoc:
   attributes:
