@@ -28,6 +28,14 @@ jobs:
     - name: Generate Antora Site
       run: antora --fetch antora-playbook.yml
 
+    - name: Generate Build Info
+      run: |
+        echo ":build-commit: $(git rev-parse --short HEAD)" > docs/build-info.adoc
+        echo ":build-date: $(date -u +"%Y-%m-%d %H:%M UTC")" >> docs/build-info.adoc
+        echo "" >> docs/build-info.adoc
+        echo "Build commit: {build-commit}  " >> docs/build-info.adoc
+        echo "Build date: {build-date}" >> docs/build-info.adoc
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
