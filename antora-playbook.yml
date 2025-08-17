@@ -22,6 +22,8 @@ ui:
         static_files:
         - .nojekyll
         - css/custom.css
+        - .auth/login/aad
+        - .auth/logout
         styles:
         - css/custom.css
 
